@@ -1,0 +1,36 @@
+{
+  "name": "demo-app",
+  "version": "1.0.0",
+  "description": "\"# demo app\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerhofer/demo-app.git"
+  },
+  "author": "Pia Gerhofer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gerhofer/demo-app/issues"
+  },
+  "homepage": "https://github.com/gerhofer/demo-app#readme",
+  "devDependencies": {
+    "@types/body-parser": "0.0.33",
+    "@types/morgan": "^1.7.32",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.1",
+    "typescript": "^2.0.6"
+  },
+  "dependencies": {
+    "@types/debug": "0.0.29",
+    "@types/express": "^4.0.33",
+    "@types/node": "^6.0.46",
+    "body-parser": "^1.5.2",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  },
+  "keywords": []
+}
